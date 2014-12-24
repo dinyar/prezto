@@ -11,3 +11,10 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+zstyle ':completion:*' special-dirs true
+zstyle ':completion:*' ignore-parents parent pwd
+
+hash -d diss=~/Documents/Uni/CERN/Dissertation
+hash -d gmt=~diss/vhdl/GMT
+
+source $HOME/.aliases
