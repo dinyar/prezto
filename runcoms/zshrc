@@ -18,3 +18,5 @@ hash -d diss=~/Documents/Uni/CERN/Dissertation
 hash -d gmt=~diss/vhdl/GMT
 
 source $HOME/.aliases
+bash $HOME/dotFiles/check_kerberos.sh
+
