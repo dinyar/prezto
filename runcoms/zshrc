@@ -18,3 +18,12 @@ hash -d diss=~/Documents/Uni/CERN/Dissertation
 hash -d gmt=~diss/vhdl/GMT
 
 source $HOME/.aliases
+
+export LESSOPEN="| /usr/bin/src-hilite-lesspipe.sh %s"
+export LESS=' -R '
+
+export VISUAL=gedit
+export EDITOR=gedit
+
+eval "$(thefuck --alias damn)"
+
