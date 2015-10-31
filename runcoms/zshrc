@@ -20,3 +20,11 @@ hash -d gmt=~diss/vhdl/GMT
 source $HOME/.aliases
 bash $HOME/dotFiles/check_kerberos.sh
 
+export EDITOR=vim
+export VISUAL=vim
+
+export LESSOPEN="| /usr/bin/src-hilite-lesspipe.sh %s"
+export LESS=' -R '
+
+#eval "$(thefuck --alias damn)"
+
