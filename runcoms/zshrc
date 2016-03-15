@@ -26,5 +26,5 @@ export VISUAL=vim
 export LESSOPEN="| /usr/bin/src-hilite-lesspipe.sh %s"
 export LESS=' -R '
 
-#eval "$(thefuck --alias damn)"
+eval "$(thefuck --alias damn)"
 
