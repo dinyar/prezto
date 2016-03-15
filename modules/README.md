@@ -10,11 +10,6 @@ Archive
 
 Provides functions to list and extract archives.
 
-Autosuggestions
----------------
-
-Integrates zsh-autosuggestions into Prezto.
-
 Command-Not-Found
 -----------------
 

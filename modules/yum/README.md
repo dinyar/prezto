@@ -15,7 +15,7 @@ Aliases
   - `yumr` removes package(s).
   - `yums` searches for a package.
   - `yumu` updates packages.
-  - `yumU` upgrades packages.
+  - `yumU` upgrates packages.
 
 Authors
 -------
